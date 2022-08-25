@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6ec1a6-d08e-4469-b04f-b7f01f7fa335" name="Changes" comment="Implement &quot;publish comment&quot; use case">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/ProjectConfiguration.java" afterDir="false" />
+    <list default="true" id="bd6ec1a6-d08e-4469-b04f-b7f01f7fa335" name="Changes" comment="Add Spring to project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxies/CommentPushNotificationProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/DBCommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/proxies/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxies/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CommentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661349114768</updated>
       <workItem from="1661349117735" duration="3906000" />
-      <workItem from="1661391859292" duration="1800000" />
+      <workItem from="1661391859292" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="Implement &quot;publish comment&quot; use case">
       <created>1661354889387</created>
@@ -91,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661354889387</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Spring to project">
+      <created>1661395411279</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661395411279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement &quot;publish comment&quot; use case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement &quot;publish comment&quot; use case" />
+    <MESSAGE value="Add Spring to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Spring to project" />
   </component>
 </project>
