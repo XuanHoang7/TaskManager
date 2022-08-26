@@ -17,6 +17,8 @@ public class Main {
         comment.setText("Demo comment");
 
         var commentService = context.getBean(CommentService.class);
+        var commentServiceCheck = context.getBean(CommentService.class);
+        System.out.println(commentService == commentServiceCheck);
         commentService.publishComment(comment);
     }
 }
